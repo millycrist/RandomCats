@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatinhos Aleatórios</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        img {
+            max-width: 400px;
+            border-radius: 8px;
+        }
+
+        .error {
+            color: red;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="catImage" src="" alt="Imagem de um gatinho aleatório" />
+        <p class="error" id="errorMessage"></p>
+        <button onclick="getRandomCat()">Novo Gatinho</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
